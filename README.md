@@ -21,6 +21,8 @@ There are 3 modules with ML examples and one auxiliary module for data loading f
 
 /data/book-ratings.zip, /data/books.zip, /data/users.zip - zipped csv files to test recommendation system, contains data about 200k books and users' preferences
 
+(user ```docker-compose up --build``` to create a db container)
+
 /data/bbc, /data/stoplists - datasets for text analysing tools
 
 /ml-data-tools - a dataloader for csv files, can be used together as a data source for recommendation system.
